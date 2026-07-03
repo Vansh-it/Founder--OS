@@ -1,0 +1,88 @@
+import type { NavigationItem } from './types';
+
+export const navigationItems: NavigationItem[] = [
+  {
+    label: 'Dashboard',
+    href: '/',
+    icon: '🏠',
+    description: 'Founder OS command center',
+    group: 'COMMAND CENTER',
+  },
+  {
+    label: 'Problem Discovery',
+    href: '/problem-discovery',
+    icon: '🔍',
+    description: 'Find billion-dollar problems',
+    group: 'DISCOVERY',
+  },
+  {
+    label: 'Thinking Frameworks',
+    href: '/thinking-frameworks',
+    icon: '🧠',
+    description: 'How elite founders think',
+    group: 'FRAMEWORKS',
+  },
+  {
+    label: 'Build with Free Tools',
+    href: '/building-products',
+    icon: '⚡',
+    description: '$0 infrastructure stack',
+    group: 'BUILDING',
+  },
+  {
+    label: 'Execution Roadmap',
+    href: '/execution-roadmap',
+    icon: '🗺️',
+    description: 'Day-by-day launch plan',
+    group: 'EXECUTION',
+  },
+  {
+    label: 'Marketing & Acquisition',
+    href: '/marketing-acquisition',
+    icon: '📣',
+    description: 'Get your first real users',
+    group: 'GROWTH',
+  },
+  {
+    label: 'Payment Systems',
+    href: '/payment-systems',
+    icon: '💳',
+    description: 'Collect money as a minor',
+    group: 'MONEY',
+  },
+  {
+    label: 'Scaling Systems',
+    href: '/scaling-systems',
+    icon: '📈',
+    description: 'From 0 to scalable startup',
+    group: 'SCALE',
+  },
+  {
+    label: 'Founder Roadmap 2026–2035',
+    href: '/founder-roadmap',
+    icon: '🗓️',
+    description: 'Your decade-long playbook',
+    group: 'FUTURE',
+  },
+  {
+    label: 'Five Perspectives',
+    href: '/five-perspectives',
+    icon: '👁️',
+    description: '5 advisor personas for you',
+    group: 'PERSPECTIVES',
+  },
+  {
+    label: 'Advanced Knowledge',
+    href: '/advanced-knowledge',
+    icon: '📚',
+    description: 'SaaS economics & psychology',
+    group: 'INTELLIGENCE',
+  },
+  {
+    label: 'Tool Stack Library',
+    href: '/tool-stack',
+    icon: '🛠️',
+    description: '200 tools across 20 categories',
+    group: 'TOOLS',
+  },
+];
